@@ -1,0 +1,2 @@
+rootProject.name = "idiot-compose"
+include ':app'
