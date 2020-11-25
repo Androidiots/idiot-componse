@@ -2,8 +2,6 @@ package com.androidiots.compose.ui
 
 import android.os.Bundle
 import androidx.annotation.MainThread
-import androidx.compose.getValue
-import androidx.compose.setValue
 import androidx.core.os.bundleOf
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel

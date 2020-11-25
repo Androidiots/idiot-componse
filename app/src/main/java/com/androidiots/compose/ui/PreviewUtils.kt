@@ -16,8 +16,8 @@
 
 package com.androidiots.compose.ui
 
-import androidx.compose.Composable
-import androidx.ui.material.Surface
+import androidx.compose.material.Surface
+import androidx.compose.runtime.Composable
 
 @Composable
 internal fun ThemedPreview(

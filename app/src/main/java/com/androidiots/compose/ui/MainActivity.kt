@@ -3,10 +3,7 @@ package com.androidiots.compose.ui
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import androidx.compose.Composable
-import androidx.ui.core.setContent
-import androidx.ui.foundation.Text
-import androidx.ui.tooling.preview.Preview
+import androidx.compose.ui.platform.setContent
 
 class MainActivity : AppCompatActivity() {
 

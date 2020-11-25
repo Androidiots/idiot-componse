@@ -1,17 +1,13 @@
 package com.androidiots.compose.ui.activity
 
-import androidx.compose.Composable
-import androidx.ui.core.Modifier
-import androidx.ui.foundation.Icon
-import androidx.ui.foundation.Text
-import androidx.ui.foundation.contentColor
-import androidx.ui.layout.padding
-import androidx.ui.material.IconButton
-import androidx.ui.material.MaterialTheme
-import androidx.ui.material.Scaffold
-import androidx.ui.material.TopAppBar
-import androidx.ui.material.icons.Icons
-import androidx.ui.material.icons.filled.ArrowBack
+import androidx.compose.foundation.contentColor
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material.*
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+
 
 @Composable
 fun BasicGridScreen(onBack: () -> Unit) {
